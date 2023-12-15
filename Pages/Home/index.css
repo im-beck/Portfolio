@@ -1,3 +1,35 @@
 body{
     background-color: #4EA6B2;
+    margin: 0px;
+}
+
+header {
+    background-color: #D0CCCC;
+    height: 90px;
+    padding-top: 5px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.homebox{
+    width: 800px;
+    height: 400px;
+    margin: 50px 60px;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+nav a:link{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color:blue;
 }
