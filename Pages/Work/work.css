@@ -1,0 +1,106 @@
+body {
+    background-color: #4EA6B2;
+    margin: 0;
+}
+
+header {
+    background-color: #D0CCCC;
+    height: 90px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+/* ... (your existing CSS) ... */
+
+.folder-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%; /* Center the folder items horizontally */
+}
+
+.folder-item i {
+    color: #f3c851;
+    font-size: 7em;
+}
+
+.folder-item p {
+    font-size: 15pt;
+    margin-top: 50px; 
+}
+
+nav a:link,
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+main a:link,
+main a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .folder-item {
+        margin: 100px; /* Adjusted margin for better spacing */
+    }
+
+    .folder-item a {
+        margin: 25px; /* Adjusted margin for better spacing */
+    }
+}
