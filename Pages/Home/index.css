@@ -33,31 +33,6 @@ header {
     margin: 5%;
 }
 
-.folderbox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto; /* Center the folderbox horizontally */
-}
-
-.folderbox a {
-    text-align: center;
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.folderbox i {
-    color: #f3c851;
-    font-size: 7em;
-}
-
-.folderbox p {
-    font-size: 15pt;
-    margin-top: 30px;
-}
-
 nav a:link,
 nav a:visited {
     color: black;
@@ -85,15 +60,5 @@ main a:visited{
         flex: 1; 
         max-width: none; 
         margin: 10px; /* Adjusted margin for better spacing */
-    }
-
-    .folderbox {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
-        margin: 50px; /* Adjusted margin for better spacing */
-    }
-
-    .folderbox a {
-        margin: 25px; /* Adjusted margin for better spacing */
     }
 }
