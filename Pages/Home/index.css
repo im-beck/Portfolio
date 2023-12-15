@@ -15,22 +15,52 @@ header {
     display: flex; 
     justify-content: space-between; 
     flex-wrap: wrap; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .homebox {
     flex: 1; 
     max-width: 800px;
     margin: 5%;
+    margin-bottom: 0%;
     color: white;
     padding: 10px;
     font-size: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .imgbox {
     flex: 1; 
     max-width: 560px;
     margin: 5%;
+}
+
+.cta-buttons {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.cta-buttons a.contact-btn,
+.cta-buttons button {
+    display: block;
+    width: 100%;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #4EA6B2;
+    background-color: #fff;
+    border: 2px solid #4EA6B2;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.cta-buttons a.contact-btn:hover,
+.cta-buttons button:hover {
+    background-color: #37848f;
+    color: #fff;
 }
 
 nav a:link,
