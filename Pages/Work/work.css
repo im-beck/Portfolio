@@ -15,7 +15,8 @@ header {
 .container {
     display: flex; 
     justify-content: space-between; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 /* ... (your existing CSS) ... */
@@ -37,6 +38,15 @@ header {
     margin-top: 50px; 
 }
 
+nav a {
+    margin-right: 100px; /* Adjust the value to control the space between words */
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-right: 0; /* Remove the margin for the last anchor to avoid extra spacing */
+}
+
 nav a:link,
 nav a:visited {
     color: rgb(51, 125, 148);
@@ -49,8 +59,12 @@ nav a:hover {
 
 main a:link,
 main a:visited {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+main a:hover{
+    color:#4EA6B2
 }
 
 /* The Modal (background) */

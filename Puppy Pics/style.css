@@ -1,0 +1,79 @@
+body {
+    background-color:burlywood;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(70, 45, 3);
+    height: 130px;
+    color: wheat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+nav a:link{
+    color: wheat;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: wheat;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(41, 29, 9);
+}
+
+#dogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#breeds {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#btn-load {
+    padding: 8px;
+    background-color: #5f3900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#image-num {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(70, 45, 3);
+    border-radius: 20px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#image-container img {
+    width: 200px; 
+    height: 200px; 
+    margin: 5px; 
+}
+
+footer {
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
