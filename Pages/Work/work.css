@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: #D0CCCC;
+    background-color: #fff;
+    color:#37848f;
     height: 90px;
     padding-top: 5px;
     text-align: center;
@@ -38,12 +39,12 @@ header {
 
 nav a:link,
 nav a:visited {
-    color: black;
+    color: rgb(51, 125, 148);
     text-decoration: none;
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(98, 171, 180);
 }
 
 main a:link,

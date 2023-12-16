@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: #D0CCCC;
+    background-color: #fff;
+    color:#37848f;
     height: 90px;
     padding-top: 5px;
     text-align: center;
@@ -44,9 +45,10 @@ header {
 .cta-buttons a.contact-btn,
 .cta-buttons button {
     display: block;
-    width: 100%;
+    width: auto;
+    height: auto;
     margin: 0 10px;
-    padding: 10px 20px;
+    padding: 10px 20px; /* Adjusted padding values */
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -57,6 +59,7 @@ header {
     transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
 }
 
+/* Hover effect for both buttons */
 .cta-buttons a.contact-btn:hover,
 .cta-buttons button:hover {
     background-color: #37848f;
@@ -65,12 +68,12 @@ header {
 
 nav a:link,
 nav a:visited {
-    color: black;
+    color: rgb(51, 125, 148);
     text-decoration: none;
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(98, 171, 180);
 }
 
 main a:link,
