@@ -49,6 +49,6 @@ nav a:hover {
 
 main a:link,
 main a:visited {
-    color: white;
+    color:rgb(17, 105, 131);
     text-decoration: none;
 }
